@@ -1,0 +1,36 @@
+.restricted-textarea {
+  color: black;
+  position: relative;
+  width: fit-content;
+}
+.restricted-textarea__textarea {
+  resize: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 400px;
+  height: 130px;
+  margin: 0;
+  padding: 0.9rem;
+  color: inherit;
+  outline: none;
+}
+.restricted-textarea__textarea--success:focus {
+  border: 2px solid black;
+}
+.restricted-textarea__textarea--error {
+  border: 1px solid red;
+}
+.restricted-textarea__textarea--error:focus {
+  border: 2px solid red;
+}
+.restricted-textarea__count {
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0.9rem;
+}
+.restricted-textarea--error {
+  color: red;
+}
+
+/*# sourceMappingURL=RestrictedTextarea.css.map */
